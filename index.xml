@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLKH BLOG on NLKH Blog</title>
+    <link>nlkh.github.io/index.html</link>
+    <description>Recent content in NLKH BLOG on NLKH Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="nlkh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design Pattern</title>
+      <link>nlkh.github.io/design_pattern/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>nlkh.github.io/design_pattern/index.html</guid>
+      <description>Loạt bài này được dịch từ cuốn sách &amp;ldquo;Dive into Design Patterns&amp;rdquo; của tác giả Alexander Shvets.</description>
+    </item>
+  </channel>
+</rss>
