@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NLKH BLOG on NLKH Blog</title>
-    <link>kunguyenqt.github.io/index.html</link>
+    <link>https://kunguyenqt.github.io/index.html</link>
     <description>Recent content in NLKH BLOG on NLKH Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="kunguyenqt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://kunguyenqt.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design Pattern</title>
-      <link>kunguyenqt.github.io/design_pattern/index.html</link>
+      <link>https://kunguyenqt.github.io/design_pattern/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>kunguyenqt.github.io/design_pattern/index.html</guid>
+      <guid>https://kunguyenqt.github.io/design_pattern/index.html</guid>
       <description>Loạt bài này được dịch từ cuốn sách &amp;ldquo;Dive into Design Patterns&amp;rdquo; của tác giả Alexander Shvets.</description>
     </item>
   </channel>

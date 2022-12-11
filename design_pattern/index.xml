@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design Pattern on NLKH Blog</title>
-    <link>kunguyenqt.github.io/design_pattern/index.html</link>
+    <link>https://kunguyenqt.github.io/design_pattern/index.html</link>
     <description>Recent content in Design Pattern on NLKH Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="kunguyenqt.github.io/design_pattern/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://kunguyenqt.github.io/design_pattern/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design Pattern là gì?</title>
-      <link>kunguyenqt.github.io/design_pattern/what/index.html</link>
+      <link>https://kunguyenqt.github.io/design_pattern/what/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>kunguyenqt.github.io/design_pattern/what/index.html</guid>
+      <guid>https://kunguyenqt.github.io/design_pattern/what/index.html</guid>
       <description>Design Pattern là giải pháp điển hình cho các vấn đề thường xảy ra trong thiết kế phần mềm. Chúng giống như các bản thiết kế được tạo sẵn mà bạn có thể tùy chỉnh để giải quyết vấn đề thiết kế trong mã của mình.</description>
     </item>
   </channel>
