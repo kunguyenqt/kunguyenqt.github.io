@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giới thiệu Design Pattern on NLKH Blog</title>
+    <link>https://kunguyenqt.github.io/design_pattern/introduction/index.html</link>
+    <description>Recent content in Giới thiệu Design Pattern on NLKH Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://kunguyenqt.github.io/design_pattern/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design Pattern là gì?</title>
+      <link>https://kunguyenqt.github.io/design_pattern/introduction/what-is-a-design-pattern/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kunguyenqt.github.io/design_pattern/introduction/what-is-a-design-pattern/index.html</guid>
+      <description>Design Pattern (Khuôn mẫu thiết kế) là giải pháp điển hình cho các vấn đề thường xảy ra trong thiết kế phần mềm. Chúng giống như các bản thiết kế được tạo sẵn mà chúng ta có thể tùy chỉnh để giải quyết vấn đề thiết kế định kỳ trong mã của mình.
+Bạn không thể chỉ tìm một khuôn mẫu và sao chép nó vào chương trình của mình, theo cách bạn có thể làm với các hàm hoặc thư viện có sẵn.</description>
+    </item>
+    <item>
+      <title>Ai đã phát minh ra các khuôn mẫu?</title>
+      <link>https://kunguyenqt.github.io/design_pattern/introduction/who-invented-patterns/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kunguyenqt.github.io/design_pattern/introduction/who-invented-patterns/index.html</guid>
+      <description>Đây là một câu hỏi hay, nhưng không chính xác lắm. Design patterns không phải là những khái niệm phức tạp, mơ hồ. Các khuôn mẫu là giải pháp điển hình cho các vấn đề phổ biến trong thiết kế hướng đối tượng. Khi một giải pháp được lặp đi lặp lại trong nhiều dự án khác nhau, cuối cùng ai đó sẽ đặt tên cho nó và mô tả chi tiết giải pháp đó.</description>
+    </item>
+    <item>
+      <title>Tại sao nên học Design Patterns?</title>
+      <link>https://kunguyenqt.github.io/design_pattern/introduction/why-should-i-learn-patterns/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kunguyenqt.github.io/design_pattern/introduction/why-should-i-learn-patterns/index.html</guid>
+      <description>Sự thật là bạn có thể làm việc với tư cách là một lập trình viên trong nhiều năm mà không biết về một khuôn mẫu nào. Rất nhiều người như thế. Tuy nhiên, ngay cả trong trường hợp đó, bạn có thể đã hoặc đang triển khai một số khuôn mẫu mà không hề hay biết. Vậy thì tại sao chúng ta nên lại dành thời gian tìm hiểu chúng?</description>
+    </item>
+  </channel>
+</rss>
