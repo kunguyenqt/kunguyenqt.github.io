@@ -28,11 +28,32 @@ var relearn_search_index = [
     "uri": "/design_pattern/introduction/who-invented-patterns/index.html"
   },
   {
+    "content": "Creational Design Patterns\n",
+    "description": "",
+    "tags": null,
+    "title": "Creational Design Patterns",
+    "uri": "/design_pattern/creational-design-patterns/index.html"
+  },
+  {
+    "content": "Structural Design Patterns\n",
+    "description": "",
+    "tags": null,
+    "title": "Structural Design Patterns",
+    "uri": "/design_pattern/structural-design-patterns/index.html"
+  },
+  {
     "content": "Sự thật là bạn có thể làm việc với tư cách là một lập trình viên trong nhiều năm mà không biết về một khuôn mẫu nào. Rất nhiều người như thế. Tuy nhiên, ngay cả trong trường hợp đó, bạn có thể đã hoặc đang triển khai một số khuôn mẫu mà không hề hay biết. Vậy thì tại sao chúng ta nên lại dành thời gian tìm hiểu chúng?\nDesign patterns là một bộ công cụ gồm các giải pháp đã được thử và kiểm tra cho các vấn đề phổ biến trong thiết kế phần mềm. Ngay cả khi bạn chưa bao giờ gặp phải những vấn đề này, thì việc biết các mẫu vẫn hữu ích vì nó dạy bạn cách giải quyết tất cả các loại vấn đề bằng cách sử dụng các nguyên tắc của thiết kế hướng đối tượng.\nDesign patterns xác định một ngôn ngữ chung mà bạn và đồng đội của mình có thể sử dụng để giao tiếp hiệu quả hơn. Bạn có thể nói, “Ồ, chỉ cần sử dụng Singleton cho việc đó,” và mọi người sẽ hiểu ý tưởng đằng sau đề xuất của bạn. Không cần giải thích singleton là gì nếu bạn biết khuôn mẫu và tên của nó.\n",
     "description": "",
     "tags": null,
     "title": "Tại sao nên học Design Patterns?",
     "uri": "/design_pattern/introduction/why-should-i-learn-patterns/index.html"
+  },
+  {
+    "content": "Behavioural Design Patterns\n",
+    "description": "",
+    "tags": null,
+    "title": "Behavioural Design Patterns",
+    "uri": "/design_pattern/behavioural-design-patterns/index.html"
   },
   {
     "content": "",

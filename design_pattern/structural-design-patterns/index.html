@@ -6,7 +6,8 @@
     <meta name="generator" content="Hugo 0.108.0">
     <meta name="generator" content="Relearn 5.8.0">
     <meta name="description" content="">
-    <title>Design Pattern là gì? :: NLKH Blog</title>
+    <title>Structural Design Patterns :: NLKH Blog</title>
+    <link href="/design_pattern/structural-design-patterns/index.xml" rel="alternate" type="application/rss+xml" title="Structural Design Patterns :: NLKH Blog">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="/css/fontawesome-all.min.css?1671336441" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1671336441" rel="stylesheet"></noscript>
     <link href="/css/featherlight.min.css?1671336441" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1671336441" rel="stylesheet"></noscript>
@@ -40,37 +41,26 @@
     </script>
     <script src="/js/jquery.min.js?1671336441" defer></script>
   </head>
-  <body class="mobile-support html" data-url="/design_pattern/introduction/what-is-a-design-pattern/index.html">
+  <body class="mobile-support html" data-url="/design_pattern/structural-design-patterns/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
       <nav id="topbar" class="highlightable" dir="ltr">
         <div>
           <div class="navigation">
-            <a class="nav nav-next" href="/design_pattern/introduction/who-invented-patterns/index.html" title="Ai đã phát minh ra các khuôn mẫu? (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+            <a class="nav nav-next" href="/design_pattern/behavioural-design-patterns/index.html" title="Behavioural Design Patterns (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
           <div class="navigation">
-            <a class="nav nav-prev" href="/design_pattern/introduction/index.html" title="Giới thiệu Design Pattern (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+            <a class="nav nav-prev" href="/design_pattern/creational-design-patterns/index.html" title="Creational Design Patterns (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
               <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
-            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/design_pattern/introduction/index.html"><span itemprop="name">Giới thiệu Design Pattern</span></a><meta itemprop="position" content="1"> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Design Pattern là gì?</span><meta itemprop="position" content="2"></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/design_pattern/index.html"><span itemprop="name">Design Pattern</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Structural Design Patterns</span><meta itemprop="position" content="2"></li>
             </ol>
-          </div>
-          <div class="default-animation progress">
-            <div class="toc-wrapper" dir="ltr">
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#khuôn-mẫu-bao-gồm-những-gì">Khuôn mẫu bao gồm những gì?</a></li>
-    <li><a href="#phân-loại-khuôn-mẫu">Phân loại khuôn mẫu</a></li>
-  </ul>
-</nav>
-            </div>
           </div>
         </div>
       </nav>
@@ -79,44 +69,9 @@
           <div id="head-tags">
           </div>
           <article class="default">
-<h1 id="design-pattern-l%C3%A0-g%C3%AC">Design Pattern là gì?</h1>
+<h1 id="structural-design-patterns">Structural Design Patterns</h1>
 
-<p><strong>Design Pattern</strong> (Khuôn mẫu thiết kế) là giải pháp điển hình cho các vấn đề thường xảy ra trong thiết kế phần mềm. Chúng giống như các bản thiết kế được tạo sẵn mà chúng ta có thể tùy chỉnh để giải quyết vấn đề thiết kế định kỳ trong mã của mình.</p>
-<p>Bạn không thể chỉ tìm một khuôn mẫu và sao chép nó vào chương trình của mình, theo cách bạn có thể làm với các hàm hoặc thư viện có sẵn. Mẫu không phải là một đoạn code cụ thể, mà là một khái niệm chung để giải quyết một vấn đề. Bạn có thể làm theo các chi tiết được mô tả trong khuôn mẫu và triển khai một giải pháp phù hợp với thực tế của chương trình của riêng bạn.</p>
-<p>Các khuôn mẫu thường bị nhầm lẫn với các <em><strong>thuật toán</strong></em> (algorithm), bởi vì cả hai khái niệm đều mô tả các giải pháp điển hình cho một số vấn đề đã biết. Mặc dù một thuật toán luôn xác định một tập hợp rõ ràng các hành động có thể đạt được một số mục tiêu, nhưng một khuôn mẫu là một mô tả cấp cao hơn về một giải pháp. Mã của cùng một khuôn mẫu được áp dụng cho hai chương trình khác nhau có thể khác nhau.</p>
-<p>Một thuật toán tương tự như một công thức nấu ăn: cả hai đều có các bước rõ ràng để đạt được mục tiêu. Mặt khác, một khuôn mẫu giống như một bản thiết kế hơn: bạn có thể thấy kết quả và các tính năng của nó là gì, nhưng thứ tự thực hiện chính xác là tùy thuộc vào bạn.</p>
-<h2 id="khuôn-mẫu-bao-gồm-những-gì">Khuôn mẫu bao gồm những gì?</h2>
-<p>Hầu hết các khuôn mẫu được mô tả rất rõ ràng để mọi người có thể tái tạo chúng trong nhiều ngữ cảnh. Dưới đây là các phần thường có trong khuôn mẫu:</p>
-<ul>
-<li>
-<p><strong>Mục đích</strong> của khuôn mẫu mô tả ngắn gọn cả vấn đề và giải pháp.</p>
-</li>
-<li>
-<p><strong>Động lực</strong> giải thích thêm về vấn đề và giải pháp mà khuôn mẫu có thể thực hiện được.</p>
-</li>
-<li>
-<p><strong>Cấu trúc</strong> của các lớp thể hiện từng phần của khuôn mẫu và cách chúng liên kết với nhau.</p>
-</li>
-<li>
-<p><strong>Ví dụ về mã</strong> bằng một trong những ngôn ngữ lập trình phổ biến giúp dễ dàng nắm bắt ý tưởng đằng sau khuôn mẫu.</p>
-</li>
-</ul>
-<p>Một số danh mục khuôn mẫu liệt kê các chi tiết hữu ích khác, chẳng hạn như khả năng ứng dụng của mẫu, các bước triển khai và mối quan hệ với các khuôn mẫu khác.</p>
-<h2 id="phân-loại-khuôn-mẫu">Phân loại khuôn mẫu</h2>
-<p>Các Design pattern khác nhau bởi độ phức tạp, mức độ chi tiết và quy mô áp dụng cho toàn bộ hệ thống được thiết kế. Tương tự như việc xây dựng một con đường: bạn có thể làm cho giao lộ an toàn hơn bằng cách lắp đặt một số đèn giao thông hoặc xây dựng toàn bộ nút giao thông nhiều tầng với lối đi ngầm cho người đi bộ.</p>
-<p>Các khuôn mẫu cơ bản và cấp thấp nhất thường được gọi là <em><strong>idioms</strong></em>. Chúng thường chỉ áp dụng cho một ngôn ngữ lập trình duy nhất.</p>
-<p>Các khuôn mẫu phổ quát và cấp cao nhất là các <em><strong>architectural patterns</strong></em> (khuôn mẫu kiến ​​trúc). Các nhà phát triển có thể triển khai các khuôn mẫu này bằng hầu hết mọi ngôn ngữ. Không giống như các khuôn mẫu khác, chúng có thể được sử dụng để thiết kế kiến trúc của toàn bộ ứng dụng. Ngoài ra, tất cả các khuôn mẫu có thể được phân loại theo ý định hoặc mục đích của chúng. Bao gồm ba nhóm khuôn mẫu chính:</p>
-<ul>
-<li>
-<p><strong>Creational patterns</strong> (Các khuôn mẫu khởi tạo) cung cấp các cơ chế tạo đối tượng làm tăng tính linh hoạt và sử dụng lại mã hiện có.</p>
-</li>
-<li>
-<p><strong>Structural patterns</strong> (Các khuôn mẫu cấu trúc) giải thích cách lắp ráp các đối tượng và lớp thành các cấu trúc lớn hơn, đồng thời giữ cho các cấu trúc đó linh hoạt và hiệu quả.</p>
-</li>
-<li>
-<p><strong>Behavioral patterns</strong> (Các khuôn mẫu hành vi) đảm bảo giao tiếp hiệu quả và phân công trách nhiệm giữa các đối tượng.</p>
-</li>
-</ul>
+<p>Structural Design Patterns</p>
 
             <footer class="footline">
             </footer>
@@ -211,12 +166,12 @@
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
           <li data-nav-id="/design_pattern/index.html" class="dd-item parent"><a href="/design_pattern/index.html">Design Pattern<i class="fas fa-check read-icon"></i></a><ul id="subsections-8a5cc1f5ce5c70eb26520f6c20abe356">
-          <li data-nav-id="/design_pattern/introduction/index.html" class="dd-item parent alwaysopen"><a href="/design_pattern/introduction/index.html">Giới thiệu Design Pattern<i class="fas fa-check read-icon"></i></a><ul id="subsections-02fdd0784f0a41a478751a318e9d42d6">
-          <li data-nav-id="/design_pattern/introduction/what-is-a-design-pattern/index.html" class="dd-item active"><a href="/design_pattern/introduction/what-is-a-design-pattern/index.html">Design Pattern là gì?<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design_pattern/introduction/index.html" class="dd-item alwaysopen"><a href="/design_pattern/introduction/index.html">Giới thiệu Design Pattern<i class="fas fa-check read-icon"></i></a><ul id="subsections-02fdd0784f0a41a478751a318e9d42d6">
+          <li data-nav-id="/design_pattern/introduction/what-is-a-design-pattern/index.html" class="dd-item"><a href="/design_pattern/introduction/what-is-a-design-pattern/index.html">Design Pattern là gì?<i class="fas fa-check read-icon"></i></a></li>
           <li data-nav-id="/design_pattern/introduction/who-invented-patterns/index.html" class="dd-item"><a href="/design_pattern/introduction/who-invented-patterns/index.html">Ai đã phát minh ra các khuôn mẫu?<i class="fas fa-check read-icon"></i></a></li>
           <li data-nav-id="/design_pattern/introduction/why-should-i-learn-patterns/index.html" class="dd-item"><a href="/design_pattern/introduction/why-should-i-learn-patterns/index.html">Tại sao nên học Design Patterns?<i class="fas fa-check read-icon"></i></a></li></ul></li>
           <li data-nav-id="/design_pattern/creational-design-patterns/index.html" class="dd-item"><a href="/design_pattern/creational-design-patterns/index.html">Creational Design Patterns<i class="fas fa-check read-icon"></i></a></li>
-          <li data-nav-id="/design_pattern/structural-design-patterns/index.html" class="dd-item"><a href="/design_pattern/structural-design-patterns/index.html">Structural Design Patterns<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/design_pattern/structural-design-patterns/index.html" class="dd-item active"><a href="/design_pattern/structural-design-patterns/index.html">Structural Design Patterns<i class="fas fa-check read-icon"></i></a></li>
           <li data-nav-id="/design_pattern/behavioural-design-patterns/index.html" class="dd-item"><a href="/design_pattern/behavioural-design-patterns/index.html">Behavioural Design Patterns<i class="fas fa-check read-icon"></i></a></li></ul></li>
         </ul>
         <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVisitedLinks showFooter"></div>
