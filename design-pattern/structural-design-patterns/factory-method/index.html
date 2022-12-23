@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta property="og:title" content="Factory Method (Phương thức xuất xưởng)" />
+<meta property="og:description" content="Factory Method (Phương thức xuất xưởng) hay còn được biết đến với tên khác là hàm khởi tạo ảo (Virtual Constructor), là một mô hình thiết kế thuộc nhóm mô hình khởi tạo, nó cung cấp một interface cho việc tạo đối tượng trong một siêu lớp. Tuy nhiên nó cho phép các lớp con thay đổi kiểu của đối tượng sẽ được tạo.
+Đặt vấn đề Hãy tưởng tượng rằng bạn đang tạo một ứng dụng quản lý chuỗi cung ứng hàng hóa." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kunguyenqt.github.io/design-pattern/structural-design-patterns/factory-method/" /><meta property="article:section" content="design-pattern" />
+
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.108.0">
@@ -8,19 +16,19 @@
     <meta name="description" content="">
     <title>Factory Method (Phương thức xuất xưởng) - NLKH Blog</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1671803121" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1671803121" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1671803121" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1671803121" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1671803121" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1671803121" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1671803121" rel="stylesheet">
-    <link href="/css/nucleus.css?1671803121" rel="stylesheet">
-    <link href="/css/fonts.css?1671803121" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1671803121" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1671803121" rel="stylesheet">
-    <link href="/css/theme-relearn-light.css?1671803121" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1671803121" rel="stylesheet">
-    <link href="/css/variant.css?1671803121" rel="stylesheet">
-    <link href="/css/print.css?1671803121" rel="stylesheet" media="print">
-    <script src="/js/url.js?1671803121"></script>
-    <script src="/js/variant.js?1671803121"></script>
+    <link href="/css/fontawesome-all.min.css?1671805946" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1671805946" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1671805946" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1671805946" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1671805946" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1671805946" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1671805946" rel="stylesheet">
+    <link href="/css/nucleus.css?1671805946" rel="stylesheet">
+    <link href="/css/fonts.css?1671805946" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1671805946" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1671805946" rel="stylesheet">
+    <link href="/css/theme-relearn-light.css?1671805946" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1671805946" rel="stylesheet">
+    <link href="/css/variant.css?1671805946" rel="stylesheet">
+    <link href="/css/print.css?1671805946" rel="stylesheet" media="print">
+    <script src="/js/url.js?1671805946"></script>
+    <script src="/js/variant.js?1671805946"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -38,7 +46,7 @@
       var baseUriFull='https:\/\/kunguyenqt.github.io/';
       window.variants && variants.init( [ 'relearn-light', 'relearn-dark' ] );
     </script>
-    <script src="/js/jquery.min.js?1671803121" defer></script>
+    <script src="/js/jquery.min.js?1671805946" defer></script>
   </head>
   <body class="mobile-support html" data-url="/design-pattern/structural-design-patterns/factory-method/index.html">
     <div id="body" class="default-animation">
@@ -392,12 +400,12 @@ Kế thừa có lẽ là cách đơn giản nhất để mở rộng chức năn
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/js/auto-complete.js?1671803121" defer></script>
-        <script src="/js/lunr.min.js?1671803121" defer></script>
-        <script src="/js/lunr.stemmer.support.min.js?1671803121" defer></script>
-        <script src="/js/lunr.multi.min.js?1671803121" defer></script>
-        <script src="/js/lunr.en.min.js?1671803121" defer></script>
-        <script src="/js/search.js?1671803121" defer></script>
+        <script src="/js/auto-complete.js?1671805946" defer></script>
+        <script src="/js/lunr.min.js?1671805946" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1671805946" defer></script>
+        <script src="/js/lunr.multi.min.js?1671805946" defer></script>
+        <script src="/js/lunr.en.min.js?1671805946" defer></script>
+        <script src="/js/search.js?1671805946" defer></script>
       </div>
       <div id="homelinks" class="default-animation">
         <ul>
@@ -456,9 +464,9 @@ Kế thừa có lẽ là cách đơn giản nhất để mở rộng chức năn
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1671803121" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1671803121" defer></script>
-    <script src="/js/featherlight.min.js?1671803121" defer></script>
-    <script src="/js/theme.js?1671803121" defer></script>
+    <script src="/js/clipboard.min.js?1671805946" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1671805946" defer></script>
+    <script src="/js/featherlight.min.js?1671805946" defer></script>
+    <script src="/js/theme.js?1671805946" defer></script>
   </body>
 </html>
