@@ -6,5 +6,13 @@
     <description>Recent content in Creational Design Patterns on NLKH Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kunguyenqt.github.io/design-pattern/creational-design-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Khuôn mẫu Builder</title>
+      <link>https://kunguyenqt.github.io/design-pattern/creational-design-patterns/builder/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kunguyenqt.github.io/design-pattern/creational-design-patterns/builder/index.html</guid>
+      <description>Mục tiêu Builder là một creational design pattern cho phép bạn từng bước xây dựng các đối tượng phức tạp. Khuôn mẫu này cho phép bạn tạo ra các loại và biểu diễn khác nhau của một đối tượng bằng cách sử dụng cùng một mã xây dựng.
+Đặt vấn đề Hãy tưởng tượng một đối tượng phức tạp đòi hỏi phải khởi tạo từng bước, tốn nhiều công sức cho nhiều trường và đối tượng lồng nhau.</description>
+    </item>
   </channel>
 </rss>
