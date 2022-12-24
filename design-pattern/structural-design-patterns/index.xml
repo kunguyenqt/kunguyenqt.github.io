@@ -6,13 +6,5 @@
     <description>Recent content in Structural Design Patterns on NLKH Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://kunguyenqt.github.io/design-pattern/structural-design-patterns/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Factory Method (Phương thức xuất xưởng)</title>
-      <link>https://kunguyenqt.github.io/design-pattern/structural-design-patterns/factory-method/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kunguyenqt.github.io/design-pattern/structural-design-patterns/factory-method/index.html</guid>
-      <description>Factory Method (Phương thức xuất xưởng) hay còn được biết đến với tên khác là hàm khởi tạo ảo (Virtual Constructor), là một mô hình thiết kế thuộc nhóm mô hình khởi tạo, nó cung cấp một interface cho việc tạo đối tượng trong một siêu lớp. Tuy nhiên nó cho phép các lớp con thay đổi kiểu của đối tượng sẽ được tạo.
-Đặt vấn đề Hãy tưởng tượng rằng bạn đang tạo một ứng dụng quản lý chuỗi cung ứng hàng hóa.</description>
-    </item>
   </channel>
 </rss>
