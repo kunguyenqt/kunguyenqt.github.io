@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Creational Design Patterns on NLKH Blog</title>
-    <link>https://kunguyenqt.github.io/design-pattern/creational-design-patterns/index.html</link>
+    <link>https://nlkhteam.top/design-pattern/creational-design-patterns/index.html</link>
     <description>Recent content in Creational Design Patterns on NLKH Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://kunguyenqt.github.io/design-pattern/creational-design-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://nlkhteam.top/design-pattern/creational-design-patterns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Factory Method</title>
-      <link>https://kunguyenqt.github.io/design-pattern/creational-design-patterns/factory-method/index.html</link>
+      <link>https://nlkhteam.top/design-pattern/creational-design-patterns/factory-method/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kunguyenqt.github.io/design-pattern/creational-design-patterns/factory-method/index.html</guid>
+      <guid>https://nlkhteam.top/design-pattern/creational-design-patterns/factory-method/index.html</guid>
       <description>Factory Method (Phương thức xuất xưởng) hay còn được biết đến với tên khác là hàm khởi tạo ảo (Virtual Constructor), là một mô hình thiết kế thuộc nhóm mô hình khởi tạo, nó cung cấp một interface cho việc tạo đối tượng trong một siêu lớp. Tuy nhiên nó cho phép các lớp con thay đổi kiểu của đối tượng sẽ được tạo.
 Đặt vấn đề Hãy tưởng tượng rằng bạn đang tạo một ứng dụng quản lý chuỗi cung ứng hàng hóa.</description>
     </item>
     <item>
       <title>Khuôn mẫu Builder</title>
-      <link>https://kunguyenqt.github.io/design-pattern/creational-design-patterns/builder/index.html</link>
+      <link>https://nlkhteam.top/design-pattern/creational-design-patterns/builder/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kunguyenqt.github.io/design-pattern/creational-design-patterns/builder/index.html</guid>
+      <guid>https://nlkhteam.top/design-pattern/creational-design-patterns/builder/index.html</guid>
       <description>Mục tiêu Builder là một creational design pattern cho phép bạn từng bước xây dựng các đối tượng phức tạp. Khuôn mẫu này cho phép bạn tạo ra các loại và biểu diễn khác nhau của một đối tượng bằng cách sử dụng cùng một mã xây dựng.
 Đặt vấn đề Hãy tưởng tượng một đối tượng phức tạp đòi hỏi phải khởi tạo từng bước, tốn nhiều công sức cho nhiều trường và đối tượng lồng nhau.</description>
     </item>
